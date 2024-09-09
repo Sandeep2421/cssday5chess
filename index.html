@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .q{
+            border: 1px solid black;
+            height: 800px;
+            width: 800px;
+        }
+        .q>:nth-of-type(2n+1){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .q>:nth-of-type(2n){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .w{
+            position:relative;
+            left: 100px;
+            bottom: 800px;
+        }
+        .w>:nth-of-type(2n+1){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .w>:nth-of-type(2n){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+        .e{
+            position:relative;
+            left: 200px;
+            bottom: 1600px;
+        }
+        .e>:nth-of-type(2n+1){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .e>:nth-of-type(2n){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .r{
+            position:relative;
+            left: 300px;
+            bottom: 2400px;
+        }
+        .r>:nth-of-type(2n+1){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .r>:nth-of-type(2n){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+        .t{
+            position:relative;
+            left: 400px;
+            bottom: 3200px;
+        }
+        .t>:nth-of-type(2n+1){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .t>:nth-of-type(2n){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .y{
+            position:relative;
+            left: 500px;
+            bottom: 4000px;
+        }
+        .y>:nth-of-type(2n+1){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .y>:nth-of-type(2n){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+        .u{
+            position:relative;
+            left: 600px;
+            bottom: 4800px;
+        }
+        .u>:nth-of-type(2n+1){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .u>:nth-of-type(2n){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .i{
+            position:relative;
+            left: 700px;
+            bottom: 5600px;
+        }
+        .i>:nth-of-type(2n+1){
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            
+
+        }
+        .i>:nth-of-type(2n){
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+        .first2{
+            color: black(225, 225, 238);
+            font-size: 75px;
+        }
+        .first1{
+          color: white;
+            font-size: 75px;
+        }
+        .eight{
+            color: black(225, 225, 238);
+            font-size: 75px;
+        }
+        .first8{
+            color: black(225, 225, 238);
+            font-size: 75px;
+        }
+        .eight8{
+          color: white;
+            font-size: 75px;
+        }
+        .second1{
+            color: black(225, 225, 238);
+            font-size: 75px;
+        }
+        .seven1{
+          color: white;
+            font-size: 75px;
+        }
+        .second8{
+          color: white;
+            font-size: 75px;
+        }
+        .seven8{
+          color: black;
+            font-size: 75px;
+        }
+        .three1{
+          color: white;
+            font-size: 75px;
+        }
+        .three8{
+          color: black;
+            font-size: 75px;
+        }
+        .six1{
+          color: black;
+            font-size: 75px;
+        }
+        .six8{
+          color: white;
+            font-size: 75px;
+        }
+        .four1{
+          color: black;
+            font-size: 75px;
+        }
+        .five8{
+          color: black;
+            font-size: 75px;
+        }
+        .five1{
+          color: white;
+            font-size: 75px;
+        }
+        .four8{
+          color: white;
+            font-size: 75px;
+        }
+        .first7{
+            color: white;
+            font-size: 75px;
+        }
+        .second2{
+            color: white;
+            font-size: 75px;
+        }
+        .second7{
+            color: black;
+            font-size: 75px;
+        }
+        .three2{
+            color: black;
+            font-size: 75px;
+        }
+        .three7{
+            color: white;
+            font-size: 75px;
+        }
+        .four2{
+            color: white;
+            font-size: 75px;
+        }
+        .four7{
+            color: black;
+            font-size: 75px;
+        }
+        .five2{
+            color: black;
+            font-size: 75px;
+        }
+        .five7{
+            color: white;
+            font-size: 75px;
+        }
+        .six2{
+            color: white;
+            font-size: 75px;
+        }
+        .six7{
+            color: black;
+            font-size: 75px;
+        }
+        .seven2{
+            color: black;
+            font-size: 75px;
+        }
+        .seven7{
+            color: white;
+            font-size: 75px;
+        }
+        .eight2{
+            color: white;
+            font-size: 75px;
+        }
+        .eight7{
+            
+            color: black;
+            font-size: 75px;
+        }
+        .first2:hover,.second2:hover,.three2:hover,.four2:hover,.five2:hover,.six2:hover,.seven2:hover,.eight2:hover,.first7:hover,.second7:hover,.three7:hover,.four7:hover,.five7:hover,.six7:hover,.seven7:hover,.eight7:hover{
+            background-color: brown;
+        }
+        .first1:hover,.first8:hover,.eight:hover,.eight8:hover{
+            background-color: blueviolet;
+
+        }
+        .second1:hover,.second8:hover,.seven1:hover, .seven8:hover {
+            background-color: blanchedalmond;
+            
+        }
+        .three1:hover,.three8:hover,.six1:hover,.six8:hover{
+            background-color: seagreen;
+            
+        }
+        .first1:hover,.first8:hover,.eight1:hover,.eight8:hover{
+            background-color: blueviolet;
+            
+        }
+        .four1:hover,.five8:hover{
+            background-color: red;
+        }
+        .five1:hover,.four8:hover{
+            background-color:blue;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div  class="q">
+      <div class="first1">	&#9814</div>
+      <div class="first2">&#9823	</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div class="first7">&#9823</div>
+      <div class="first8">&#9814</div>
+     
+      
+      
+      
+        
+        
+    </div>
+    <div  class="w">
+        <div class="second1">	&#9816</div>
+        <div class="second2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="second7"> &#9823</div>
+        <div class="second8">&#9816</div>
+        
+      
+        
+          
+          
+      </div>
+      <div  class="e">
+        <div class="three1">&#9815</div>
+        <div class="three2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="three7">&#9823</div>
+        <div class="three8">&#9815</div>
+        
+          
+          
+      </div>
+      <div  class="r">
+        <div class="four1">	&#9813</div>
+        <div class="four2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="four7">&#9823</div>
+        <div class="four8">&#9818</div>
+        
+          
+          
+      </div>
+      <div  class="t">
+        <div class="five1">&#9818</div>
+        <div class="five2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="five7">&#9823</div>
+        <div class="five8">	&#9813</div>
+        
+          
+          
+      </div>
+      <div  class="y">
+        <div class="six1">&#9815</div>
+        <div class="six2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="six7">&#9823</div>
+        <div class="six8">&#9815</div>
+        
+          
+          
+      </div>
+      <div  class="u">
+        <div class="seven1">	&#9816</div>
+        <div class="seven2">&#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="seven7">&#9823</div>
+        <div class="seven8">&#9816</div>
+        
+          
+          
+      </div>
+      <div  class="i">
+        <div class="eight">&#9814</div>
+        <div class="eight2"> &#9823</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="eight7">&#9823</div>
+        <div class="eight8">&#9814</div>
+        
+          
+          
+      </div>
+    
+</body>
+</html>
